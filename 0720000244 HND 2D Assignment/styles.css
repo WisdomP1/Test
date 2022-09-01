@@ -1,0 +1,69 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(images/clothes.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	background-color: lightgrey;
+} 
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	background-color: lightgrey;
+	margin-top: 0px;
+	
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 70px;
+
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+ img{
+     width: 46px;
+    height: 44px;
+    display: inline-block;
+}
+p{
+   text-align: center;
+   border-style: solid;
+   border-color: indianred;
+   background-color: indianred;
+   padding: 10px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   border-width: medium;
+
+}
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+
+}
+
+h2 {
+  margin: 10px 0 0 0;
+  border-bottom: solid;
+  text-align: center;
+}
+
+p.ex1 {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thin;
+  outline-offset: 1px;
+}
+
+p.ex2 {
+
+  outline-style: solid;
+  outline-color: red;
+  outline-width: medium;
+  
+}
